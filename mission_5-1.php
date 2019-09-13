@@ -1,9 +1,9 @@
 	<?php
 	session_start();
 		//データベースに接続
-		$dsn = 'mysql:dbname=tb210303db;host=localhost';
-		$user = 'tb-210303';
-		$password = 'XNcnWp2zZV';
+		$dsn = 'mysql:dbname=*****;host=localhost';
+		$user = '*****';
+		$password = '*****';
 		$pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 		//pdoをグローバルにしないと関数で使えないっぽい？
 		global $pdo;
