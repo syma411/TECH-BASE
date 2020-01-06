@@ -1,0 +1,7 @@
+TECH-BASEフォルダまでのパス
+cd documents/TECH-BASE
+
+terminalでの操作
+
+ファイル作成
+touch ファイル名.拡張子 
